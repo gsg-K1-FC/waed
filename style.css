@@ -46,3 +46,9 @@ p::after{
     content: "Read More >>";
     color: blue;
 }
+
+
+p::selection{
+    color: white;
+    background-color: goldenrod;
+}
