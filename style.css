@@ -1,0 +1,48 @@
+div {
+    width: 1300px;
+    height: 470px; 
+    background-color: #DFE6E9;
+    padding: 30px;
+    
+}
+
+h2, p {
+    font-family: sans-serif;
+}
+
+#firstp{
+    padding-right: 35px;
+}
+
+#firstSec{
+    margin-bottom: 50px;
+}
+
+#secondSec{
+    background-color: #30336B;
+    color: white;
+}
+
+h2:hover{
+    font-size: 30px;
+    color: lightpink;
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+
+#firstp::first-letter{
+    background-color: black;
+    color: white;
+}
+
+#secondp::first-letter{
+    background-color: white;
+    color: black;
+}
+
+p::after{
+    content: "Read More >>";
+    color: blue;
+}
